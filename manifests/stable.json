@@ -1,0 +1,8 @@
+﻿{
+  "schema_version": 1,
+  "stable": {
+    "studio_version": "1.2.1",
+    "manifest": "manifests/studio/1.2.1.json",
+    "assets_release": "wheelhouse-2026.10.0"
+  }
+}

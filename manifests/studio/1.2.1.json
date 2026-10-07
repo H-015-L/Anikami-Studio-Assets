@@ -1,0 +1,16 @@
+﻿{
+  "schema_version": 1,
+  "studio_version": "1.2.1",
+  "environment": {
+    "python": "3.10.11",
+    "platform": "windows",
+    "architecture": "amd64",
+    "accelerator": "cuda12.4"
+  },
+  "assets_repository": "H-015-L/Anikami-Studio-Assets",
+  "wheelhouse": {
+    "release": "wheelhouse-2026.10.0"
+  },
+  "wheel_count": 117,
+  "wheels": []
+}
