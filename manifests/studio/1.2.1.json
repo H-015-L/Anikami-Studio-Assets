@@ -1,16 +1,954 @@
 ﻿{
-  "schema_version": 1,
-  "studio_version": "1.2.1",
-  "environment": {
-    "python": "3.10.11",
-    "platform": "windows",
-    "architecture": "amd64",
-    "accelerator": "cuda12.4"
-  },
-  "assets_repository": "H-015-L/Anikami-Studio-Assets",
-  "wheelhouse": {
-    "release": "wheelhouse-2026.10.0"
-  },
-  "wheel_count": 117,
-  "wheels": []
+    "schema_version":  1,
+    "studio_version":  "1.2.1",
+    "environment":  {
+                        "python":  "3.10.11",
+                        "platform":  "windows",
+                        "architecture":  "amd64",
+                        "accelerator":  "cuda12.4"
+                    },
+    "assets_repository":  "H-015-L/Anikami-Studio-Assets",
+    "wheelhouse":  {
+                       "release":  "wheelhouse-2026.10.0",
+                       "checksum_manifest":  "offline_packages.sha256"
+                   },
+    "wheel_count":  117,
+    "wheels":  [
+                   {
+                       "filename":  "altgraph-0.17.5-py2.py3-none-any.whl",
+                       "sha256":  "878e48b4bca053a5ee8602703455ca651547d8d46bbcc19844b51a22279b9ef0",
+                       "size_mb":  0.02,
+                       "size_bytes":  21426,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/altgraph-0.17.5-py2.py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "annotated_doc-0.0.4-py3-none-any.whl",
+                       "sha256":  "e740fefef24c3d5d5cd7cb90a81787cb106e0ed21db2dafe0ccaebbe2f1a8d7c",
+                       "size_mb":  0.01,
+                       "size_bytes":  5505,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/annotated_doc-0.0.4-py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "annotated_types-0.8.0-py3-none-any.whl",
+                       "sha256":  "3420c3675b20ce4efee9aef692c03bee73f7d9b01c2a694af8a33e9de6fc4330",
+                       "size_mb":  0.02,
+                       "size_bytes":  19561,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/annotated_types-0.8.0-py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "antlr4_python3_runtime-4.9.3-py3-none-any.whl",
+                       "sha256":  "4fc89599d7d3806600ccc0e67232f64207a834e375060bfe35e51f562e2e4b66",
+                       "size_mb":  0.24,
+                       "size_bytes":  255505,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/antlr4_python3_runtime-4.9.3-py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "anyio-4.15.1-py3-none-any.whl",
+                       "sha256":  "4c19a637a724d5790a033de9471a03ea190fcb888ac243b22ef80d30667191b9",
+                       "size_mb":  0.18,
+                       "size_bytes":  184065,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/anyio-4.15.1-py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "appdirs-1.4.4-py2.py3-none-any.whl",
+                       "sha256":  "482064171bceabd31da29270a8a2aa79bec0b5bc0e65ec8a750eeecc1eb61cf3",
+                       "size_mb":  0.02,
+                       "size_bytes":  16106,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/appdirs-1.4.4-py2.py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "arabic_reshaper-3.0.1-py3-none-any.whl",
+                       "sha256":  "9efdeb162d6cc8dca919bf9569267abab0cafaeb1fa61a74e586835b899fdafb",
+                       "size_mb":  0.04,
+                       "size_bytes":  38748,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/arabic_reshaper-3.0.1-py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "backports.tarfile-1.2.0-py3-none-any.whl",
+                       "sha256":  "ddec1609370c26168d4049ca7b6817e1c5d4de449ddf6e4c83c54a2a7d6b2cc6",
+                       "size_mb":  0.06,
+                       "size_bytes":  63843,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/backports.tarfile-1.2.0-py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "certifi-2026.7.22-py3-none-any.whl",
+                       "sha256":  "cc6d7353292ecca03e7f2e02f77c8b742c5d0db73a1a52d8167869061181c966",
+                       "size_mb":  0.13,
+                       "size_bytes":  138631,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/certifi-2026.7.22-py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "cffi-2.1.1-cp310-cp310-win_amd64.whl",
+                       "sha256":  "f5fcbde5d1ce3ba530859f689e5683fab5c474a4041c5ca98e7ae4dafc13c950",
+                       "size_mb":  0.21,
+                       "size_bytes":  225118,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/cffi-2.1.1-cp310-cp310-win_amd64.whl"
+                   },
+                   {
+                       "filename":  "charset_normalizer-3.5.1-cp310-cp310-win_amd64.whl",
+                       "sha256":  "056d6f38fa4c492096217a31daaef5d86b56c0dd823dc31a6b4dc4e913bd2391",
+                       "size_mb":  0.24,
+                       "size_bytes":  249085,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/charset_normalizer-3.5.1-cp310-cp310-win_amd64.whl"
+                   },
+                   {
+                       "filename":  "click-8.4.2-py3-none-any.whl",
+                       "sha256":  "42dd64ca1eae341d5f82f603c37a5a12a41dd9a212a7d374c822067df3eef259",
+                       "size_mb":  0.23,
+                       "size_bytes":  239389,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/click-8.4.2-py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "colorama-0.4.6-py2.py3-none-any.whl",
+                       "sha256":  "310f1b90b62f4cd073806e067c15332c66d3140f623de87d053707ca0acc9106",
+                       "size_mb":  0.04,
+                       "size_bytes":  38996,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/colorama-0.4.6-py2.py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "coloredlogs-15.0.1-py2.py3-none-any.whl",
+                       "sha256":  "1edc020a44178cb92e5e2a6c5267f1c5dbd7c28d8d4ae58b295e59813bd3da2e",
+                       "size_mb":  0.04,
+                       "size_bytes":  46222,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/coloredlogs-15.0.1-py2.py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "cryptography-50.0.1-cp39-abi3-win_amd64.whl",
+                       "sha256":  "c6aaf52b95cd1f8cebba558bd6eb05d904d1f5f971937553f8bc1ac6124989b4",
+                       "size_mb":  3.61,
+                       "size_bytes":  3786284,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/cryptography-50.0.1-cp39-abi3-win_amd64.whl"
+                   },
+                   {
+                       "filename":  "distro-1.9.0-py3-none-any.whl",
+                       "sha256":  "f3355e2d81e6e7e17694e296efb3170f3c959791da7add58ae7c459b2510ac55",
+                       "size_mb":  0.02,
+                       "size_bytes":  20468,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/distro-1.9.0-py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "einops-0.8.2-py3-none-any.whl",
+                       "sha256":  "0e85d5aa7efe9f5123047f98b3f2f172a8f81176c0078dbf30dfac0a53bd6fa9",
+                       "size_mb":  0.09,
+                       "size_bytes":  96821,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/einops-0.8.2-py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "exceptiongroup-1.3.1-py3-none-any.whl",
+                       "sha256":  "00589592fe59d577b9af1e7886d9f77f0372dde70256b07308d630c6e13399e5",
+                       "size_mb":  0.03,
+                       "size_bytes":  32505,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/exceptiongroup-1.3.1-py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "filelock-3.29.0-py3-none-any.whl",
+                       "sha256":  "dc07f086f6c34625e4806ad595b00ef032c84ae99acabfea8aa7bbf5ee204ff8",
+                       "size_mb":  0.09,
+                       "size_bytes":  91551,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/filelock-3.29.0-py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "fire-0.7.1-py3-none-any.whl",
+                       "sha256":  "712ec820ced958e84cd11384179a284d983a23d4c48f0344753bf00b44656045",
+                       "size_mb":  0.11,
+                       "size_bytes":  116131,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/fire-0.7.1-py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "flatbuffers-25.12.19-py2.py3-none-any.whl",
+                       "sha256":  "073ce1c1e19e73a767ec0a8dac06a5880caa08d69a0abb5ec03ee2bfb7713acb",
+                       "size_mb":  0.03,
+                       "size_bytes":  26867,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/flatbuffers-25.12.19-py2.py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "freetype_py-2.5.1-py3-none-win_amd64.whl",
+                       "sha256":  "96b83c446fa3c833c8f537c0e9fe4617f2eac6614d7c2f2857344918e469fa6a",
+                       "size_mb":  0.86,
+                       "size_bytes":  905288,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/freetype_py-2.5.1-py3-none-win_amd64.whl"
+                   },
+                   {
+                       "filename":  "fsspec-2026.4.0-py3-none-any.whl",
+                       "sha256":  "d5a4cc51ae759df615ce8a29d2048c8b933d8e1d4241f6f71240a6c7787cfd42",
+                       "size_mb":  0.19,
+                       "size_bytes":  203599,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/fsspec-2026.4.0-py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "ftfy-6.3.1-py3-none-any.whl",
+                       "sha256":  "6c0bffe4341b3de05e464da050bc2d8bd4725e2f2672416612fa542af50e6a70",
+                       "size_mb":  0.04,
+                       "size_bytes":  45009,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/ftfy-6.3.1-py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "fugashi-1.5.2-cp310-cp310-win_amd64.whl",
+                       "sha256":  "ca142109613ff312f2b863b18d50623099c75223edf4de1f4446e5f938ce6940",
+                       "size_mb":  0.49,
+                       "size_bytes":  508849,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/fugashi-1.5.2-cp310-cp310-win_amd64.whl"
+                   },
+                   {
+                       "filename":  "google_auth-2.58.0-py3-none-any.whl",
+                       "sha256":  "424c4751a74c51646561a72ec2822c6f29a290aa80965a75fe62d7f4a22da9aa",
+                       "size_mb":  0.31,
+                       "size_bytes":  327322,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/google_auth-2.58.0-py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "google_genai-2.23.0-py3-none-any.whl",
+                       "sha256":  "a0f1c1872de8fa956f36198bb26109e1457931b42a4a0ae3256897542b3917ef",
+                       "size_mb":  1.42,
+                       "size_bytes":  1490216,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/google_genai-2.23.0-py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "h11-0.16.0-py3-none-any.whl",
+                       "sha256":  "dbe3c78d402c94b883ce107841578eee22589afce7ae87dbc4054a7319170a7e",
+                       "size_mb":  0.06,
+                       "size_bytes":  67190,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/h11-0.16.0-py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "hf_xet-1.5.2-cp38-abi3-win_amd64.whl",
+                       "sha256":  "dd9bc43abd23f9fbe09694b703f24d3e0b55937476a3c5a0bf0af13fd1d7b35e",
+                       "size_mb":  3.68,
+                       "size_bytes":  3861589,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/hf_xet-1.5.2-cp38-abi3-win_amd64.whl"
+                   },
+                   {
+                       "filename":  "httpcore-1.0.9-py3-none-any.whl",
+                       "sha256":  "efd9e75e988074a1803a6c005d6770445e3cc18af547974acf4498589c5d78cb",
+                       "size_mb":  0.18,
+                       "size_bytes":  185192,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/httpcore-1.0.9-py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "httpx-0.28.1-py3-none-any.whl",
+                       "sha256":  "9962bbdabaa19791c0f7e64bc8dc0f1c9f1140cbe540e0c8e87af7d83977322c",
+                       "size_mb":  0.17,
+                       "size_bytes":  177615,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/httpx-0.28.1-py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "huggingface_hub-1.24.0-py3-none-any.whl",
+                       "sha256":  "5a29b607241dcea961bdc23ba820f19a072e74a571b20ac7c8975c0022a55e88",
+                       "size_mb":  1.03,
+                       "size_bytes":  1076326,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/huggingface_hub-1.24.0-py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "humanfriendly-10.0-py2.py3-none-any.whl",
+                       "sha256":  "97dcbad699fd59d7bf987f8f95dd19899abd4ace95ba17c59a868731405ad24e",
+                       "size_mb":  0.08,
+                       "size_bytes":  86997,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/humanfriendly-10.0-py2.py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "idna-3.19-py3-none-any.whl",
+                       "sha256":  "25a21b1a819c2483129abce5ef6ca53ed873ac28e9840788a5831fa4ed8ac490",
+                       "size_mb":  0.09,
+                       "size_bytes":  91187,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/idna-3.19-py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "importlib_metadata-9.0.1-py3-none-any.whl",
+                       "sha256":  "7e3e172cae9fa94bb26844f03aa5956ad2b6a6e2fd477c838fec3609903a6a4b",
+                       "size_mb":  0.05,
+                       "size_bytes":  57343,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/importlib_metadata-9.0.1-py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "jaconv-0.5.0-py3-none-any.whl",
+                       "sha256":  "8818f94db764b8d462b5e4cc70da8960a80a751db1d80a5c131f10a76bfde0b7",
+                       "size_mb":  0.03,
+                       "size_bytes":  31612,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/jaconv-0.5.0-py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "jaraco.classes-3.4.0-py3-none-any.whl",
+                       "sha256":  "afe80f754c1d39031af18d51e68dadcd064937b40215842b6dba1237dd1b99ac",
+                       "size_mb":  0.01,
+                       "size_bytes":  10609,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/jaraco.classes-3.4.0-py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "jaraco_context-6.1.2-py3-none-any.whl",
+                       "sha256":  "bd197ab2911b4158f799b490449e7cd21d46fde54e197f8efef00290fbe32955",
+                       "size_mb":  0.01,
+                       "size_bytes":  14437,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/jaraco_context-6.1.2-py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "jaraco_functools-4.6.0-py3-none-any.whl",
+                       "sha256":  "daf855056b670018853dd64b5a2ad1e21d15e18c3f88bfe663d51040b0843f55",
+                       "size_mb":  0.02,
+                       "size_bytes":  21292,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/jaraco_functools-4.6.0-py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "jinja2-3.1.6-py3-none-any.whl",
+                       "sha256":  "3eb554294e362aff114b90157880a8d53128cb778f266d01006633ffe19a6c5d",
+                       "size_mb":  0.31,
+                       "size_bytes":  320338,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/jinja2-3.1.6-py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "keyring-25.7.0-py3-none-any.whl",
+                       "sha256":  "1acc7fe003a2f860c6fda4e740b62ccd80b1e10dc1e69fb5fc4a3977e61a7a13",
+                       "size_mb":  0.07,
+                       "size_bytes":  72865,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/keyring-25.7.0-py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "langcodes-3.5.1-py3-none-any.whl",
+                       "sha256":  "740652b320853d65bc1a6dfc74315dcfe993afec94fa5b8e00ad508da11811f9",
+                       "size_mb":  0.26,
+                       "size_bytes":  272393,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/langcodes-3.5.1-py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "language_data-1.4.0-py3-none-any.whl",
+                       "sha256":  "f0cecf8894f7a603010cc65ab88d915612023d46daeeb9b9e255874e255a8559",
+                       "size_mb":  5.31,
+                       "size_bytes":  5572884,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/language_data-1.4.0-py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "loguru-0.7.3-py3-none-any.whl",
+                       "sha256":  "a3978d77819360b69b781682d0aa6a63bf6868345a7378f08e766c3d678e5fa9",
+                       "size_mb":  0.13,
+                       "size_bytes":  133467,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/loguru-0.7.3-py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "manga_ocr-0.1.16-py3-none-any.whl",
+                       "sha256":  "f21351b24898abc07c75384dda6e36c9e5db2e6d1cb8a546c673d3d6d2bfaf55",
+                       "size_mb":  0.07,
+                       "size_bytes":  72633,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/manga_ocr-0.1.16-py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "marisa_trie-1.4.1-cp310-cp310-win_amd64.whl",
+                       "sha256":  "6bf063335ecc756ee92feb56f99a1a61648227639969266e20280a594de77353",
+                       "size_mb":  0.17,
+                       "size_bytes":  174653,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/marisa_trie-1.4.1-cp310-cp310-win_amd64.whl"
+                   },
+                   {
+                       "filename":  "markdown_it_py-4.2.0-py3-none-any.whl",
+                       "sha256":  "a8da250e3d6008ac2e8112d3ccd997a352f19b2909e3ffd0f22d084a6ee13764",
+                       "size_mb":  0.09,
+                       "size_bytes":  91898,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/markdown_it_py-4.2.0-py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "markupsafe-3.0.3-cp310-cp310-win_amd64.whl",
+                       "sha256":  "9464782ce88b2d066162c53ebddab0d08a28b8e278a40cdcba388152395db08f",
+                       "size_mb":  0.02,
+                       "size_bytes":  21783,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/markupsafe-3.0.3-cp310-cp310-win_amd64.whl"
+                   },
+                   {
+                       "filename":  "mdurl-0.1.2-py3-none-any.whl",
+                       "sha256":  "e41223ba4c9be17a42a95b33109f62070d55b45d722822ff8963295e7758c5db",
+                       "size_mb":  0.01,
+                       "size_bytes":  10168,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/mdurl-0.1.2-py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "more_itertools-11.1.0-py3-none-any.whl",
+                       "sha256":  "527e4ce8c28663dce9ec1c39957378d082d19f0989e29722b36a6ff890c92f7f",
+                       "size_mb":  0.14,
+                       "size_bytes":  149546,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/more_itertools-11.1.0-py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "mpmath-1.3.0-py3-none-any.whl",
+                       "sha256":  "41438c423a4947de3b722f2abbd1ba8042c26194df3567c3e28dad178af3eeda",
+                       "size_mb":  1.01,
+                       "size_bytes":  1058952,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/mpmath-1.3.0-py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "networkx-3.4.2-py3-none-any.whl",
+                       "sha256":  "74cd49a7bbb3a311a6798c2a903f4027b0d8517f9a76f271c18932c853b4d99c",
+                       "size_mb":  2.18,
+                       "size_bytes":  2282442,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/networkx-3.4.2-py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "numpy-1.26.4-cp310-cp310-win_amd64.whl",
+                       "sha256":  "51407c7dab491c72f7a27b04d2c9956ddada2ddeaa1dff342f5e73614a5e2065",
+                       "size_mb":  15.4,
+                       "size_bytes":  16145547,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/numpy-1.26.4-cp310-cp310-win_amd64.whl"
+                   },
+                   {
+                       "filename":  "omegaconf-2.3.1-py3-none-any.whl",
+                       "sha256":  "34ef427cc9fb2a7afdf4a97207f978833cf479365b115223a46613c7c529f4cc",
+                       "size_mb":  0.18,
+                       "size_bytes":  188475,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/omegaconf-2.3.1-py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "onnxruntime-1.23.2-cp310-cp310-win_amd64.whl",
+                       "sha256":  "64bb1f682aebe15a96e630f8ee5dda02b0f533c0c86400f185f237304298cb4c",
+                       "size_mb":  12.06,
+                       "size_bytes":  12645387,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/onnxruntime-1.23.2-cp310-cp310-win_amd64.whl"
+                   },
+                   {
+                       "filename":  "open_clip_torch-3.3.0-py3-none-any.whl",
+                       "sha256":  "66d90c81f12c02d11cc2c9716f387ad0d46cd7f3a148c8a56c2cb60b74e2f12b",
+                       "size_mb":  1.48,
+                       "size_bytes":  1547659,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/open_clip_torch-3.3.0-py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "opencv_python-4.11.0.86-cp37-abi3-win_amd64.whl",
+                       "sha256":  "594b6603577070e6228d108a85ff1b365c0fa6866d2e3ae3c5baaffa64da913b",
+                       "size_mb":  25.27,
+                       "size_bytes":  26500827,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/opencv_python-4.11.0.86-cp37-abi3-win_amd64.whl"
+                   },
+                   {
+                       "filename":  "packaging-26.3-py3-none-any.whl",
+                       "sha256":  "d1c3e6f6ba8b9960e91c6f52c7069491422e07f7c3c499467678d3aeb3941354",
+                       "size_mb":  0.2,
+                       "size_bytes":  209918,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/packaging-26.3-py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "pandas-2.3.3-cp310-cp310-win_amd64.whl",
+                       "sha256":  "c89dd3bb98c1560fcba1c042aca1542a1ad8594798c65cce2a53fe80d562c50c",
+                       "size_mb":  10.07,
+                       "size_bytes":  10562394,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/pandas-2.3.3-cp310-cp310-win_amd64.whl"
+                   },
+                   {
+                       "filename":  "pefile-2024.8.26-py3-none-any.whl",
+                       "sha256":  "861ccb1ee0fd4009cbdc36471d675c37c68bb06f31d2d2996fdd0bb6be3e9f8f",
+                       "size_mb":  0.07,
+                       "size_bytes":  74967,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/pefile-2024.8.26-py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "pillow-12.3.0-cp310-cp310-win_amd64.whl",
+                       "sha256":  "13ec57dca4fbb85fcb046c5ff6d66ca26662515bc157db6c2b356ea65e6133af",
+                       "size_mb":  2.78,
+                       "size_bytes":  2910059,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/pillow-12.3.0-cp310-cp310-win_amd64.whl"
+                   },
+                   {
+                       "filename":  "protobuf-5.29.6-cp310-abi3-win_amd64.whl",
+                       "sha256":  "8f634e7e984d560ca3c583f32e5667a0d6df93eeab4f04331d5c35bcb2c5996c",
+                       "size_mb":  0.42,
+                       "size_bytes":  435533,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/protobuf-5.29.6-cp310-abi3-win_amd64.whl"
+                   },
+                   {
+                       "filename":  "py3langid-0.2.2-py3-none-any.whl",
+                       "sha256":  "c81ec2c453b1d532d86cf5f3da9d91316f054c5da868243cbe37484be9360484",
+                       "size_mb":  0.72,
+                       "size_bytes":  758373,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/py3langid-0.2.2-py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "pyasn1_modules-0.4.2-py3-none-any.whl",
+                       "sha256":  "ab257d3c0f133e3eb8c96beb02437f734b96117d90d2253b48dd45fe9dc4b83a",
+                       "size_mb":  0.17,
+                       "size_bytes":  181468,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/pyasn1_modules-0.4.2-py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "pyasn1-0.6.4-py3-none-any.whl",
+                       "sha256":  "efa018793cf778a54fed617403266ef68f31cbb72db53afe9da47bdb069058cb",
+                       "size_mb":  0.08,
+                       "size_bytes":  84601,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/pyasn1-0.6.4-py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "pyclipper-1.4.0-cp310-cp310-win_amd64.whl",
+                       "sha256":  "cabb7b62abe8af161fffbefd333b186bcf8704b08be276fab52936ac90dc86f4",
+                       "size_mb":  0.1,
+                       "size_bytes":  105763,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/pyclipper-1.4.0-cp310-cp310-win_amd64.whl"
+                   },
+                   {
+                       "filename":  "pycparser-3.0-py3-none-any.whl",
+                       "sha256":  "a7ad9ca001edc70a0e97f579ac3007d5bad3381b8690c9591636635f8582593c",
+                       "size_mb":  0.09,
+                       "size_bytes":  89267,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/pycparser-3.0-py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "pydantic_core-2.46.5-cp310-cp310-win_amd64.whl",
+                       "sha256":  "94fdb15008c8953a1a3483d19c736d9399c077810439728c628d44f114b975a4",
+                       "size_mb":  1.9,
+                       "size_bytes":  1988830,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/pydantic_core-2.46.5-cp310-cp310-win_amd64.whl"
+                   },
+                   {
+                       "filename":  "pydantic-2.13.5-py3-none-any.whl",
+                       "sha256":  "25936ff5253320012cb64ce0ea015a8f65cbb7022ab88052772aa1286a2f1241",
+                       "size_mb":  0.73,
+                       "size_bytes":  763172,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/pydantic-2.13.5-py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "pydensecrf-1.0-cp310-cp310-win_amd64.whl",
+                       "sha256":  "6405437ae8d64a52e5a486d4ebeed0c5304a84e19dc66bc2f5bc4541d2dc3bb2",
+                       "size_mb":  0.19,
+                       "size_bytes":  196418,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/pydensecrf-1.0-cp310-cp310-win_amd64.whl"
+                   },
+                   {
+                       "filename":  "pygments-2.20.0-py3-none-any.whl",
+                       "sha256":  "43ccc6dd375d8b6a23bf6a7aba09e32ac6898e4b3841b093bb839600ae19c53e",
+                       "size_mb":  1.25,
+                       "size_bytes":  1308841,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/pygments-2.20.0-py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "PyHyphen-4.0.4-cp37-abi3-win_amd64.whl",
+                       "sha256":  "d95fe2c70bba68267d821c55fd9bd2fb18c5e10e7bdc3bd349ac444206462bda",
+                       "size_mb":  0.04,
+                       "size_bytes":  46007,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/PyHyphen-4.0.4-cp37-abi3-win_amd64.whl"
+                   },
+                   {
+                       "filename":  "pyinstaller_hooks_contrib-2026.7-py3-none-any.whl",
+                       "sha256":  "70188247ca71f101ef7ec004dab06651b5672c694083905a1ea967debefedeb4",
+                       "size_mb":  0.44,
+                       "size_bytes":  459678,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/pyinstaller_hooks_contrib-2026.7-py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "pyinstaller-6.22.3-py3-none-win_amd64.whl",
+                       "sha256":  "aace9e5b07ba5dda090a817365937820863f2c3c32b5c6a29527cb52e31e8582",
+                       "size_mb":  1.39,
+                       "size_bytes":  1455328,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/pyinstaller-6.22.3-py3-none-win_amd64.whl"
+                   },
+                   {
+                       "filename":  "pyperclip-1.11.0-py3-none-any.whl",
+                       "sha256":  "f2f86cf27cecc9f255c69b9025e1969945a46b4e3a3741dc27e80962b137a949",
+                       "size_mb":  0.01,
+                       "size_bytes":  11260,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/pyperclip-1.11.0-py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "pyreadline3-3.5.6-py3-none-any.whl",
+                       "sha256":  "138bced9c5168336dc35b267b3d3f656b809a06303686870b03d05463424be15",
+                       "size_mb":  0.18,
+                       "size_bytes":  185580,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/pyreadline3-3.5.6-py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "pyside6_addons-6.11.2-cp310-abi3-win_amd64.whl",
+                       "sha256":  "ea938e646c66e7303feb693a13ad21bd4512a7976401310bccf0f6d2a00adf8e",
+                       "size_mb":  8.57,
+                       "size_bytes":  8984931,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/pyside6_addons-6.11.2-cp310-abi3-win_amd64.whl"
+                   },
+                   {
+                       "filename":  "pyside6_essentials-6.11.2-cp310-abi3-win_amd64.whl",
+                       "sha256":  "651aabe90ecceafd8e665d26b077dadc840f82598a6fcff6e656b1ad6a24d977",
+                       "size_mb":  25.66,
+                       "size_bytes":  26910642,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/pyside6_essentials-6.11.2-cp310-abi3-win_amd64.whl"
+                   },
+                   {
+                       "filename":  "pyside6-6.11.2-cp310-abi3-win_amd64.whl",
+                       "sha256":  "aa1176a72f77a41bb7287a00cbf1f7ee92751e977e99b28838fb7cf4a8cbb9e8",
+                       "size_mb":  0.55,
+                       "size_bytes":  581370,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/pyside6-6.11.2-cp310-abi3-win_amd64.whl"
+                   },
+                   {
+                       "filename":  "python_bidi-0.6.11-cp310-cp310-win_amd64.whl",
+                       "sha256":  "2d2e747f90d73a046653d640a137a76d51cafd538e4d0c56dcaaec234c46e082",
+                       "size_mb":  0.16,
+                       "size_bytes":  171654,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/python_bidi-0.6.11-cp310-cp310-win_amd64.whl"
+                   },
+                   {
+                       "filename":  "python_dateutil-2.9.0.post0-py2.py3-none-any.whl",
+                       "sha256":  "8a8eddbee08e58546bc2ac3b41393d3549d868b27c9a534e364dd34dd8db0ad0",
+                       "size_mb":  0.28,
+                       "size_bytes":  294546,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/python_dateutil-2.9.0.post0-py2.py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "python_dotenv-1.2.2-py3-none-any.whl",
+                       "sha256":  "0b0c967bbaa9925dcabdfb53c658db07c45b0bf4e4b7883b7398ce2be056a850",
+                       "size_mb":  0.03,
+                       "size_bytes":  34861,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/python_dotenv-1.2.2-py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "pytz-2026.2-py2.py3-none-any.whl",
+                       "sha256":  "ba2783f7f58663f4ababcb5b32f59cf9aafa3988be03e83f3f6e86bec3ebb781",
+                       "size_mb":  0.51,
+                       "size_bytes":  533326,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/pytz-2026.2-py2.py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "pywin32_ctypes-0.2.3-py3-none-any.whl",
+                       "sha256":  "9e54f6bbe580913974c61802af252492d61f4ce56c8cfef18520298782065a82",
+                       "size_mb":  0.05,
+                       "size_bytes":  51866,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/pywin32_ctypes-0.2.3-py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "pyyaml-6.0.3-cp310-cp310-win_amd64.whl",
+                       "sha256":  "2ac473fa6411020f52b2bb0711f54f129e1cca6f90bff8add4759b793f0d05c4",
+                       "size_mb":  0.21,
+                       "size_bytes":  219197,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/pyyaml-6.0.3-cp310-cp310-win_amd64.whl"
+                   },
+                   {
+                       "filename":  "regex-2026.7.19-cp310-cp310-win_amd64.whl",
+                       "sha256":  "577397e1fa52ae4a89b80e6be501ccedee4db0a1e1fecca3af0530858d775cee",
+                       "size_mb":  0.32,
+                       "size_bytes":  331442,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/regex-2026.7.19-cp310-cp310-win_amd64.whl"
+                   },
+                   {
+                       "filename":  "requests_toolbelt-1.0.0-py2.py3-none-any.whl",
+                       "sha256":  "4b3ae8c68d59b89b639dd1d3a2c87376ad84eab27de573e487002dfd1d388b2b",
+                       "size_mb":  0.08,
+                       "size_bytes":  87754,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/requests_toolbelt-1.0.0-py2.py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "requests-2.34.2-py3-none-any.whl",
+                       "sha256":  "08ca0b0ba6d98056f18f4f9cfe58d8f9551ae199aca533e3e03d4707024eee13",
+                       "size_mb":  0.15,
+                       "size_bytes":  157314,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/requests-2.34.2-py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "rich-15.0.0-py3-none-any.whl",
+                       "sha256":  "8ef61dc716603809b3aeddc131a71c021528a49ab39b7b65f5e63012b0388d98",
+                       "size_mb":  0.51,
+                       "size_bytes":  534656,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/rich-15.0.0-py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "safetensors-0.8.0-cp310-abi3-win_amd64.whl",
+                       "sha256":  "ff53bfda61cb3d411b38db8bb9a0d1b32d54b317b1f735db274197e53cde6157",
+                       "size_mb":  0.34,
+                       "size_bytes":  352739,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/safetensors-0.8.0-cp310-abi3-win_amd64.whl"
+                   },
+                   {
+                       "filename":  "setuptools-83.0.0-py3-none-any.whl",
+                       "sha256":  "bd569338f974354be352db6193814f640ecc11ff6817864a0e9c1a0183e65374",
+                       "size_mb":  0.77,
+                       "size_bytes":  808719,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/setuptools-83.0.0-py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "shapely-2.1.2-cp310-cp310-win_amd64.whl",
+                       "sha256":  "88257c55809ca8accd4b19e1fe8ab0ed17e9f633f5907f38b004352cd28a2a1b",
+                       "size_mb":  1.75,
+                       "size_bytes":  1838675,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/shapely-2.1.2-cp310-cp310-win_amd64.whl"
+                   },
+                   {
+                       "filename":  "shellingham-1.5.4-py2.py3-none-any.whl",
+                       "sha256":  "73750fd9ab85270890407b40bdbcf72b7e68b2a358459045d28117208935af0b",
+                       "size_mb":  0.01,
+                       "size_bytes":  9956,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/shellingham-1.5.4-py2.py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "shiboken6-6.11.2-cp310-abi3-win_amd64.whl",
+                       "sha256":  "683956913a194d57de8a347ddf9d1d48097659acc3b64d601bebfa7e535df8d4",
+                       "size_mb":  1.17,
+                       "size_bytes":  1227456,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/shiboken6-6.11.2-cp310-abi3-win_amd64.whl"
+                   },
+                   {
+                       "filename":  "six-1.17.0-py2.py3-none-any.whl",
+                       "sha256":  "75173d1f401cb61de9f57cdccd91a5b6202c6aa35f08e4243cb986f39ed50236",
+                       "size_mb":  0.02,
+                       "size_bytes":  23474,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/six-1.17.0-py2.py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "sniffio-1.3.1-py3-none-any.whl",
+                       "sha256":  "d5e60175625307f1cec9eeee80149a2d38875bab6caf313836da4aacbf82d31c",
+                       "size_mb":  0.01,
+                       "size_bytes":  12798,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/sniffio-1.3.1-py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "sympy-1.13.1-py3-none-any.whl",
+                       "sha256":  "27ea3688542b2701cbbf394c8637cdf3a550290153ed9e10acaed05de5cbe826",
+                       "size_mb":  6.93,
+                       "size_bytes":  7265935,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/sympy-1.13.1-py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "tenacity-9.1.4-py3-none-any.whl",
+                       "sha256":  "6f70580aec6c886f0dfc3ccb9c4ec7f25e2c4a87840c9d22fb008c3aab270e65",
+                       "size_mb":  0.06,
+                       "size_bytes":  60732,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/tenacity-9.1.4-py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "termcolor-3.3.0-py3-none-any.whl",
+                       "sha256":  "2f0b9a0feacce691b7346f99a42f1b64fbf6e5523764f6ff08188568ce11cfd9",
+                       "size_mb":  0.01,
+                       "size_bytes":  7931,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/termcolor-3.3.0-py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "timm-1.0.28-py3-none-any.whl",
+                       "sha256":  "e38659924d47fc0ac9d53d8c32d3b14597f80f3137f73be70801725b84be5410",
+                       "size_mb":  3.79,
+                       "size_bytes":  3976879,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/timm-1.0.28-py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "tokenizers-0.22.2-cp39-abi3-win_amd64.whl",
+                       "sha256":  "ce1eff9f0ee4b648458147d761aa51b017de792d6177085fc74e9cb911263cba",
+                       "size_mb":  2.53,
+                       "size_bytes":  2649009,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/tokenizers-0.22.2-cp39-abi3-win_amd64.whl"
+                   },
+                   {
+                       "filename":  "tomli-2.4.1-py3-none-any.whl",
+                       "sha256":  "332f9604676e7a21b9e7f4796683cb1a60d15b57d06f25afde8f299ff587285d",
+                       "size_mb":  0.01,
+                       "size_bytes":  14773,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/tomli-2.4.1-py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "torch-2.6.0+cu124-cp310-cp310-win_amd64.whl",
+                       "sha256":  "40e814e30d343be9e2a5216d4da6b991b54ba4fc1971877e6435346b2b2df28d",
+                       "size_mb":  2028.53,
+                       "size_bytes":  2127066683,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/torch-2.6.0+cu124-cp310-cp310-win_amd64.whl"
+                   },
+                   {
+                       "filename":  "torchvision-0.21.0+cu124-cp310-cp310-win_amd64.whl",
+                       "sha256":  "d8f815431d46a8cd9871c232429530ab34e93248bf734f61acd898cd47093259",
+                       "size_mb":  6.63,
+                       "size_bytes":  6953870,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/torchvision-0.21.0+cu124-cp310-cp310-win_amd64.whl"
+                   },
+                   {
+                       "filename":  "tqdm-4.69.0-py3-none-any.whl",
+                       "sha256":  "47c733ba65172f1b54122908aa9a6090978ec975217b892d67cf9c720b2e687f",
+                       "size_mb":  0.69,
+                       "size_bytes":  725245,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/tqdm-4.69.0-py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "transformers-5.14.1-py3-none-any.whl",
+                       "sha256":  "d27ec35cc851b9526661395df8080dbdc8028d37fca6ac02c0844cc0e66a9d28",
+                       "size_mb":  12.26,
+                       "size_bytes":  12856018,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/transformers-5.14.1-py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "typer-0.27.0-py3-none-any.whl",
+                       "sha256":  "a923957739f15d5f7277716ed631f11d28a2ac3c07ab92451140df520b52e57c",
+                       "size_mb":  0.12,
+                       "size_bytes":  122907,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/typer-0.27.0-py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "typing_extensions-4.16.0-py3-none-any.whl",
+                       "sha256":  "004eff4a47fb7f3dde89dc615331bbe4555f837483717d195817d342dfe5ec13",
+                       "size_mb":  0.09,
+                       "size_bytes":  92569,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/typing_extensions-4.16.0-py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "typing_inspection-0.4.4-py3-none-any.whl",
+                       "sha256":  "a644e77da9fcfd2e4bcf354f5761e490b42821f0aa81b545689a7efdd529da36",
+                       "size_mb":  0.02,
+                       "size_bytes":  25903,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/typing_inspection-0.4.4-py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "tzdata-2026.3-py2.py3-none-any.whl",
+                       "sha256":  "728be5d3329db42d2516c6d1d7a9024782c520404ab5bfb6cee3ee028efec2d2",
+                       "size_mb":  0.33,
+                       "size_bytes":  348362,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/tzdata-2026.3-py2.py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "unidic_lite-1.0.8-py3-none-any.whl",
+                       "sha256":  "852343139ab1d7945aa9c53aed9c3b50051c494dfb8ec845de74b2b2ddf81aaa",
+                       "size_mb":  45.45,
+                       "size_bytes":  47659128,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/unidic_lite-1.0.8-py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "urllib3-2.7.0-py3-none-any.whl",
+                       "sha256":  "d0192a82855815809c5d54bc042334a63a41fdb06b62a6e253e203b1cd24d275",
+                       "size_mb":  0.25,
+                       "size_bytes":  258431,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/urllib3-2.7.0-py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "wcwidth-0.8.2-py3-none-any.whl",
+                       "sha256":  "a1b061a7b9f979ec5cf9c13a1d74b245711ee4e4e44bc81aeefa5073491a95db",
+                       "size_mb":  0.31,
+                       "size_bytes":  323358,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/wcwidth-0.8.2-py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "websockets-16.1.1-cp310-cp310-win_amd64.whl",
+                       "sha256":  "e0170b3e4a2ccbd0d32359dd7cc25bb9c523b49c9c7f66cb90de8bb572bedd01",
+                       "size_mb":  0.26,
+                       "size_bytes":  272347,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/websockets-16.1.1-cp310-cp310-win_amd64.whl"
+                   },
+                   {
+                       "filename":  "wheel-0.47.0-py3-none-any.whl",
+                       "sha256":  "db8cbacb03bad0708a03177ec23dac39822ab2e4c45690325183f3a6e2f3e79e",
+                       "size_mb":  0.04,
+                       "size_bytes":  43026,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/wheel-0.47.0-py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "win32_setctime-1.2.0-py3-none-any.whl",
+                       "sha256":  "148b2ee3b4554a06fdc77d235f383c7a4889afd9b680a84ca4c2f1fdea2436ef",
+                       "size_mb":  0.01,
+                       "size_bytes":  6244,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/win32_setctime-1.2.0-py3-none-any.whl"
+                   },
+                   {
+                       "filename":  "zipp-4.1.0-py3-none-any.whl",
+                       "sha256":  "913dda1dcc4801ddc0f20087a6fda7cec7740bf88fa309dbb3940e087bf5d369",
+                       "size_mb":  0.02,
+                       "size_bytes":  22704,
+                       "release":  "wheelhouse-2026.10.0",
+                       "download":  "https://github.com/H-015-L/Anikami-Studio-Assets/releases/download/wheelhouse-2026.10.0/zipp-4.1.0-py3-none-any.whl"
+                   }
+               ]
 }
